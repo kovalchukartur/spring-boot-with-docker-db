@@ -8,5 +8,4 @@ spring:
     username: ${embedded.postgresql.user}
     password: ${embedded.postgresql.password}
   liquibase:
-    rollback-file: classpath:db/migration/add-person-table/rollback-test.sql
     change-log: classpath:db/liquibase-changeLog.xml
